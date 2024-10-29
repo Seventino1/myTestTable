@@ -1,0 +1,81 @@
+.plan {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+  }
+  
+  .scena {
+    background-color: rgba(18, 81, 159, 1);
+    height: 20px;
+    width: 152px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .plan__area-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .plan__area-2 {
+    border: 1px solid rgba(18, 81, 159, 1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 4px;
+  }
+  
+  .plan__area-2-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 210px;
+  }
+  
+  .plan__side {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .plan__column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .common-table {
+    position: relative;
+  }
+  
+  .common-table__number {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .common-table_left-side .common-table_left {
+    fill: rgba(209, 151, 59, 1);
+  }
+  .common-table_right-side .common-table_right {
+    fill: rgba(209, 151, 59, 1);
+  }
+  .common-table_right-side .common-table_center {
+    fill: rgba(209, 151, 59, 1);
+  }
+  .common-table_left-side .common-table_center {
+    fill: rgba(209, 151, 59, 1);
+  }
+  
+  .common-table_circle-side path {
+    fill: rgba(209, 151, 59, 1);
+  }
+  
